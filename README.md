@@ -13,14 +13,15 @@ It covers end-to-end processes — from data preprocessing and feature engineeri
 ## 📂 Project Structure
 
 
-SolarEnergyPrediction/
+
+SolarEnergyPrediction
 │
-├─ SolarEnergy_Prediction.ipynb   # Main Jupyter/Colab notebook
-├─ README.md                      # Project documentation
-├─ requirements.txt               # Python dependencies
-├─ .gitignore                     # Ignored files
+├─ SolarEnergy_Prediction.ipynb   
+├─ README.md                     
+├─ requirements.txt              
+├─ .gitignore                     
 └─ sample_data/
-└─ Plant_1.csv                 # Sample dataset (subset of Kaggle data)
+
 
 
 
@@ -31,7 +32,7 @@ SolarEnergyPrediction/
   - Time-based features (hour, day, month, etc.)  
   - Lag & rolling mean features for time series modeling  
   - Cyclical encoding for temporal patterns
-- 🔹*Modeling Approaches: 
+- 🔹Modeling Approaches: 
   - RandomForestRegressor (primary model)  
   - XGBoostRegressor (for performance comparison)
 - 🔹 Model Evaluation: MAE, RMSE, MAPE, and R² Score
