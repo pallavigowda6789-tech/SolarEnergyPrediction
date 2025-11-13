@@ -15,6 +15,7 @@ It covers end-to-end processes — from data preprocessing and feature engineeri
 
 
 SolarEnergyPrediction
+|
 ├─ SolarEnergy_Prediction.ipynb   
 ├─ README.md                     
 ├─ requirements.txt              
